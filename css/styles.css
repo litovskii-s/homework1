@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    background: #FFFFFF;
+}
+:root {
+    --brand-color: #2196F3;
+  }
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+  }
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo>span {
+    color: var(--brand-color);
+}
+.navigation a {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.navigation a>span{
+    color: var(--brand-color);
+}
+.navigation a:hover {
+    color:var(--brand-color);
+}
+.navigation a:focus {
+    color: var(--brand-color);
+}
+.contact a {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.contact a:hover {
+    color: var(--brand-color);
+}
+.contact a:focus {
+    color: var(--brand-color);
+}
+.contact a>span {
+    color: #757575;
+}
+.main {
+    background: #2F303A;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.main button {
+    background: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    font-weight: 700;
+    border: 0;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.text {
+    background: #F5F5F5;
+}
+.text h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #212121;
+}
+.text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+.img {
+    background: #F5F5F5;
+}
+.img h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+.team {
+    background: #F5F4FA;
+}
+.team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+.team li {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team h3 {
+    font-weight: 500;
+    line-height: 19px;
+    color: #212121;
+}
+.team p {
+    line-height: 19px;
+    color: #757575;
+}
+.footer {
+    background: #2F303A;
+}
+.footer .logo-under {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.footer .logo-under span {
+    color: var(--brand-color);
+}
+.footer a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer a:hover {
+    color: var(--brand-color);
+}
+.footer a:focus {
+    color: var(--brand-color);
+}
+.footer .address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.button .button-all{ 
+    background: var(--brand-color);
+    border: 0;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.button button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #212121;
+    border: 0;
+}
+.button button:hover {
+     background: var(--brand-color);
+}
+.button button:focus {
+    background: var(--brand-color);
+}
+.main-portfolio h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.main-portfolio p {
+    line-height: 30px;
+    color: #757575;
+}
